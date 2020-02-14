@@ -7,6 +7,8 @@
       src="https://kit.fontawesome.com/44d3bf5245.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -19,8 +21,8 @@
         <i class="fas fa-volume-up"></i>
         <i class="fas fa-wifi"></i>
         <i class="fas fa-signal"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
@@ -39,8 +41,8 @@
     <main class="friends">
       <header class="friends__header">
         <div class="friends__friend friend">
-          <img src="image/junsoo.jpg" class="g-avatar friend_avatar" />
           <div class="friend__column">
+            <img src="image/junsoo.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">Junsoo Yeo</span>
               <span class="friend__status">Love You</span>
@@ -50,18 +52,20 @@
       </header>
       <div class="friends__plus">
         <h5 class="friends__title">Plus Friend</h5>
-        <img src="image/junsoo.jpg" class="g-avatar friend_avatar" />
-        <div class="friend__column">
-          <div class="friend__content">
-            <span class="friend__name">Plus Friend</span>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="image/junsoo.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Plus Friend</span>
+            </div>
           </div>
         </div>
       </div>
-      <ul class="friends_list">
+      <ul class="friends__list">
         <h5 class="friends__title">Friends 318</h5>
         <li class="friends__friend friend">
-          <img src="image/junsoo.jpg" class="g-avatar friend_avatar" />
           <div class="friend__column">
+            <img src="image/junsoo.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">Junsoo Yeo</span>
               <span class="friend__status">Love You</span>
