@@ -26,7 +26,7 @@
 }
 
 .more .more__title {
-  font-size: 12px;
+  font-size: 16px;
   opacity: 0.8;
   margin-bottom: 20px;
 }
@@ -43,9 +43,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
-.suggestion__icon i {
-  font-size: 15px;
-  color: white;
+.suggestion__icon .more__btn-icon i {
+  font-size: 17px;
+}
+
+.more .friend__column i {
+  font-size: 26px;
 }
